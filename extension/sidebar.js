@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const reEvaluateBtn = document.getElementById('re-evaluate-btn');
   const retryBtn = document.getElementById('retry-btn');
   const clearCacheBtn = document.getElementById('clear-cache-btn');
+  const closeSidebarBtn = document.getElementById('close-sidebar-btn');
 
   // Active state data
   let activePayload = null;
@@ -193,7 +194,51 @@ document.addEventListener('DOMContentLoaded', () => {
       indicator.textContent = 'Highly Reliable';
     }
 
-    reliabilitySummary.innerHTML = parseMarkdown(data.reliability_summary || 'Evaluation finished successfully.');
+    // Extract first sentence of the summary
+    let displaySummary = data.reliability_summary || 'Evaluation finished successfully.';
+    const dotIndex = displaySummary.indexOf('.');
+    if (dotIndex !== -1) {
+      displaySummary = displaySummary.substring(0, dotIndex + 1);
+    }
+    reliabilitySummary.innerHTML = parseMarkdown(displaySummary);
+
+    // Populate summary chips dynamically
+    const summaryChips = document.getElementById('summary-chips');
+    if (summaryChips) {
+      summaryChips.innerHTML = '';
+      
+      // 1. Hallucination Chip
+      const hallucCount = data.hallucinations ? data.hallucinations.length : 0;
+      const hallucChip = document.createElement('div');
+      hallucChip.className = 'summary-chip ' + (hallucCount > 0 ? 'chip-danger' : 'chip-success');
+      hallucChip.textContent = hallucCount > 0 ? `${hallucCount} Hallucination${hallucCount > 1 ? 's' : ''}` : 'No Hallucinations';
+      summaryChips.appendChild(hallucChip);
+
+      // 2. Assumptions Chip
+      const assumpCount = data.assumptions ? data.assumptions.length : 0;
+      if (assumpCount > 0) {
+        const assumpChip = document.createElement('div');
+        assumpChip.className = 'summary-chip chip-warning';
+        assumpChip.textContent = `${assumpCount} Assumption${assumpCount > 1 ? 's' : ''}`;
+        summaryChips.appendChild(assumpChip);
+      }
+
+      // 3. Logic Coherence Chip
+      const coherence = data.logic_analysis?.coherence || 'N/A';
+      const logicChip = document.createElement('div');
+      logicChip.className = 'summary-chip ' + (coherence === 'EXCELLENT' || coherence === 'GOOD' ? 'chip-success' : 'chip-warning');
+      logicChip.textContent = `Logic: ${coherence}`;
+      summaryChips.appendChild(logicChip);
+
+      // 4. Judge Verdict Chip
+      const rating = data.judge_verdict?.score_rating;
+      if (rating !== undefined) {
+        const judgeChip = document.createElement('div');
+        judgeChip.className = 'summary-chip chip-info';
+        judgeChip.textContent = `Verdict: ${data.judge_verdict.verdict} (${rating}/10)`;
+        summaryChips.appendChild(judgeChip);
+      }
+    }
 
     // Mini Metrics indicators
     const hasHallucinations = data.hallucinations && data.hallucinations.length > 0;
@@ -312,6 +357,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  if (closeSidebarBtn) {
+    closeSidebarBtn.addEventListener('click', () => {
+      chrome.runtime.sendMessage({ action: 'CLOSE_SIDEBAR' });
+    });
+  }
 
   // 6. Listen for push updates from content script / background worker
   chrome.runtime.onMessage.addListener((request) => {

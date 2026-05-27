@@ -715,3 +715,55 @@ code {
   50% { transform: scale(1.06); filter: drop-shadow(0 0 16px rgba(155, 114, 203, 0.5)); opacity: 1; }
   100% { transform: scale(1); filter: drop-shadow(0 0 8px rgba(155, 114, 203, 0.2)); opacity: 0.9; }
 }
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.summary-chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.summary-chip {
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.summary-chip.chip-success {
+  background-color: var(--color-low-risk-bg);
+  color: var(--color-low-risk);
+  border-color: var(--color-low-risk-border);
+}
+
+.summary-chip.chip-warning {
+  background-color: var(--color-medium-risk-bg);
+  color: var(--color-medium-risk);
+  border-color: var(--color-medium-risk-border);
+}
+
+.summary-chip.chip-danger {
+  background-color: var(--color-high-risk-bg);
+  color: var(--color-high-risk);
+  border-color: var(--color-high-risk-border);
+}
+
+.summary-chip.chip-info {
+  background-color: rgba(138, 180, 248, 0.08);
+  color: var(--primary-blue);
+  border-color: rgba(138, 180, 248, 0.25);
+}

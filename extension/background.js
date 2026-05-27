@@ -137,5 +137,11 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true;
   }
 
+  else if (request.action === 'CLOSE_SIDEBAR') {
+    sendToActiveTab('TOGGLE_SIDEBAR', null);
+    sendResponse({ success: true });
+    return true;
+  }
+
   return true;
 });
