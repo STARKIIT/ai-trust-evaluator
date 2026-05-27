@@ -3,7 +3,7 @@
  * Handles message routing, API calling, caching, and state storage.
  */
 
-const BACKEND_URL = 'http://localhost:3000/api/evaluate';
+const BACKEND_URL = 'https://ai-trust-evaluator.onrender.com/api/evaluate';
 let cachedConversations = {};
 
 // Keep track of the active payload to supply sidebar when requested
