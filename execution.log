@@ -1,0 +1,696 @@
+[2026-05-28 02:51:00] INITIALIZATION: Started AI Output Trust & Reliability Evaluation Layer project.
+[2026-05-28 02:51:02] INITIALIZATION: Set up .gitignore file.
+[2026-05-27T21:24:51.748Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:24:51.837Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:24:51.851Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:24:51.852Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:24:51.853Z] TEST (Phase 1): Test failure: lastSelectedText is not defined
+[2026-05-27T21:24:51.859Z] TEST RUNNER: Suite failed: Phase 1: Chrome Extension Foundation with code 1
+[2026-05-27T21:25:13.448Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:25:13.513Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:25:13.515Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:25:13.515Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:25:13.516Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T21:25:13.516Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T21:25:13.523Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:25:13.523Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T21:28:44.681Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:28:44.746Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:28:44.747Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:28:44.748Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:28:44.749Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T21:28:44.749Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T21:28:44.756Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:28:44.756Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:28:45.050Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:28:45.058Z] TEST (Phase 2): Started backend server on test port 3001.
+[2026-05-27T21:28:45.095Z] [SERVER] [INFO]: Evaluation Server running on port 3000 in test environment.
+[2026-05-27T21:28:45.120Z] TEST (Phase 2): Test failure: fetch failed
+[2026-05-27T21:28:45.132Z] TEST RUNNER: Suite failed: Phase 2: Backend Orchestration Foundation with code 1
+[2026-05-27T21:30:26.048Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:30:26.124Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:30:26.126Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:30:26.127Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:30:26.128Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T21:30:26.129Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T21:30:26.137Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:30:26.137Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:30:26.460Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:30:26.468Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T21:30:26.678Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T21:30:27.013Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T21:30:27.014Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T21:30:27.022Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T21:30:27.025Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T21:30:27.026Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:30:27.028Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T21:30:27.031Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T21:30:27.032Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:30:27.035Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T21:30:27.037Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T21:30:27.041Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:30:27.044Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T21:30:27.045Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T21:30:27.219Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:30:27.265Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T21:36:09.925Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:36:09.985Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:36:09.986Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:36:09.987Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:36:09.987Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T21:36:09.988Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T21:36:09.995Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:36:09.995Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:36:10.222Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:36:10.227Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T21:36:10.429Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T21:36:10.481Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T21:36:10.482Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T21:36:10.486Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T21:36:10.488Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T21:36:10.489Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:36:10.490Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T21:36:10.491Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T21:36:10.491Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:36:10.492Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T21:36:10.493Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T21:36:10.493Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:36:10.494Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T21:36:10.495Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T21:36:10.504Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:36:10.504Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:36:10.593Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T21:36:10.596Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T21:36:10.597Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T21:36:10.597Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T21:36:10.597Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T21:36:10.598Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T21:36:10.615Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T21:36:10.616Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T21:36:10.616Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T21:36:10.616Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T21:36:10.617Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T21:36:10.617Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T21:36:10.618Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T21:36:10.626Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:36:10.626Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T21:53:59.200Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:53:59.269Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:53:59.271Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:53:59.272Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:53:59.273Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T21:53:59.273Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T21:53:59.280Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:53:59.281Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:53:59.510Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:53:59.515Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T21:53:59.725Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T21:53:59.778Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T21:53:59.779Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T21:53:59.785Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T21:53:59.788Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T21:53:59.789Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:53:59.790Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T21:53:59.792Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T21:53:59.792Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:53:59.794Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T21:53:59.795Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T21:53:59.795Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:53:59.796Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T21:53:59.796Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T21:53:59.806Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:53:59.806Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:53:59.893Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T21:53:59.896Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T21:53:59.896Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T21:53:59.896Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T21:53:59.897Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T21:53:59.897Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T21:53:59.898Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T21:53:59.899Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T21:53:59.899Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T21:53:59.899Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T21:53:59.900Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T21:53:59.900Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T21:53:59.901Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T21:53:59.908Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:53:59.908Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T21:54:26.493Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:54:26.556Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:54:26.557Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:54:26.558Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:54:26.558Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T21:54:26.559Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T21:54:26.565Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:54:26.566Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:54:26.794Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:54:26.799Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T21:54:27.007Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T21:54:27.032Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T21:54:27.033Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T21:54:27.038Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T21:54:27.039Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T21:54:27.040Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:54:27.060Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T21:54:27.061Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T21:54:27.062Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:54:27.064Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T21:54:27.066Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T21:54:27.066Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:54:27.069Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T21:54:27.069Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T21:54:27.079Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:54:27.079Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:54:27.169Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T21:54:27.172Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T21:54:27.172Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T21:54:27.173Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T21:54:27.173Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T21:54:27.173Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T21:54:27.175Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T21:54:27.175Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T21:54:27.175Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T21:54:27.176Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T21:54:27.177Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T21:54:27.178Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T21:54:27.178Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T21:54:27.186Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:54:27.187Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T21:55:05.739Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T21:55:05.741Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T21:55:05.742Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T21:55:05.743Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T21:55:05.744Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T21:55:05.793Z] TEST (Phase 4): Test failure: The expression evaluated to a falsy value:
+
+  assert.ok(result.dimension_scores.logic === 0.70)
+
+[2026-05-27T21:55:17.647Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T21:55:17.649Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T21:55:17.649Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T21:55:17.650Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T21:55:17.650Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T21:55:17.651Z] TEST (Phase 4): Test 6 Passed: aggregateEvaluations weighting
+[2026-05-27T21:55:17.652Z] TEST (Phase 4): Test 7 Passed: buildAttentionAreas segment mapping
+[2026-05-27T21:55:17.814Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:55:17.818Z] [SERVER] [INFO]: Evaluation Server running on port 3101 in test environment.
+[2026-05-27T21:55:18.052Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T21:55:18.052Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:55:18.059Z] TEST (Phase 4): Test 8 Passed: Integrated endpoint evaluation
+[2026-05-27T21:55:18.059Z] TEST (Phase 4): All Phase 4 tests passed.
+[2026-05-27T21:55:29.366Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:55:29.428Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T21:55:29.430Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T21:55:29.430Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T21:55:29.431Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T21:55:29.431Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T21:55:29.437Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T21:55:29.438Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:55:29.680Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:55:29.685Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T21:55:29.888Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T21:55:29.936Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T21:55:29.937Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T21:55:29.943Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T21:55:29.945Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T21:55:29.945Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:55:29.948Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T21:55:29.949Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T21:55:29.950Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:55:29.951Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T21:55:29.953Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T21:55:29.953Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:55:29.954Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T21:55:29.955Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T21:55:29.964Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T21:55:29.965Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:55:30.047Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T21:55:30.050Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T21:55:30.050Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T21:55:30.051Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T21:55:30.051Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T21:55:30.051Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T21:55:30.052Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T21:55:30.053Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T21:55:30.053Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T21:55:30.053Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T21:55:30.054Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T21:55:30.054Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T21:55:30.055Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T21:55:30.062Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T21:55:30.063Z] TEST RUNNER: Starting test suite: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T21:55:30.125Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T21:55:30.127Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T21:55:30.127Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T21:55:30.128Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T21:55:30.128Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T21:55:30.129Z] TEST (Phase 4): Test 6 Passed: aggregateEvaluations weighting
+[2026-05-27T21:55:30.129Z] TEST (Phase 4): Test 7 Passed: buildAttentionAreas segment mapping
+[2026-05-27T21:55:30.294Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T21:55:30.298Z] [SERVER] [INFO]: Evaluation Server running on port 3101 in test environment.
+[2026-05-27T21:55:30.538Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T21:55:30.539Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T21:55:30.549Z] TEST (Phase 4): Test 8 Passed: Integrated endpoint evaluation
+[2026-05-27T21:55:30.549Z] TEST (Phase 4): All Phase 4 tests passed.
+[2026-05-27T21:55:30.557Z] TEST RUNNER: Suite completed: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T21:55:30.558Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T21:59:17.680Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T21:59:17.682Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T21:59:17.684Z] TEST (Phase 5): Test failure: Failed to inject highlight span wrapper around text
+[2026-05-27T22:00:19.001Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:00:19.003Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:00:19.005Z] TEST (Phase 5): Test failure: Failed to inject highlight span wrapper around text
+[2026-05-27T22:00:33.513Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:00:33.515Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:00:33.518Z] TEST (Phase 5): Test failure: Failed to inject highlight span wrapper around text
+[2026-05-27T22:00:46.575Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:00:46.577Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:00:46.580Z] TEST (Phase 5): Test failure: Highlight span text mismatch
++ actual - expected
+
++ 'There is a suspicious hallucinated fact '
+- 'There is a suspicious hallucinated fact here.'
+
+[2026-05-27T22:01:00.169Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:01:00.171Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:01:00.175Z] TEST (Phase 5): Test failure: Cannot read properties of undefined (reading 'includes')
+[2026-05-27T22:01:12.987Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:01:12.990Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:01:13.018Z] TEST (Phase 5): Test failure: parent.replaceChild is not a function
+[2026-05-27T22:01:25.332Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:01:25.334Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:01:25.338Z] TEST (Phase 5): Test 3 Passed: DOM highlighting
+[2026-05-27T22:01:25.338Z] TEST (Phase 5): All Phase 5 tests passed.
+[2026-05-27T22:01:49.479Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:01:49.539Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T22:01:49.541Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T22:01:49.541Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T22:01:49.542Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T22:01:49.542Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T22:01:49.549Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:01:49.549Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:01:49.787Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T22:01:49.792Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T22:01:50.003Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T22:01:50.025Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T22:01:50.026Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T22:01:50.032Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T22:01:50.033Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:01:50.034Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:01:50.037Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T22:01:50.038Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T22:01:50.039Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:01:50.040Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T22:01:50.041Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:01:50.042Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:01:50.043Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T22:01:50.044Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T22:01:50.053Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:01:50.053Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:01:50.154Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T22:01:50.157Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T22:01:50.157Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T22:01:50.158Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T22:01:50.158Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T22:01:50.158Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T22:01:50.159Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T22:01:50.160Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T22:01:50.160Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T22:01:50.161Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T22:01:50.161Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T22:01:50.161Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T22:01:50.162Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T22:01:50.169Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:01:50.170Z] TEST RUNNER: Starting test suite: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:01:50.234Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T22:01:50.235Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T22:01:50.236Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T22:01:50.237Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T22:01:50.238Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T22:01:50.239Z] TEST (Phase 4): Test 6 Passed: aggregateEvaluations weighting
+[2026-05-27T22:01:50.240Z] TEST (Phase 4): Test 7 Passed: buildAttentionAreas segment mapping
+[2026-05-27T22:01:50.460Z] [SERVER] [WARN]: Starting server with stub/mock API configuration.
+[2026-05-27T22:01:50.466Z] [SERVER] [INFO]: Evaluation Server running on port 3101 in test environment.
+[2026-05-27T22:01:50.706Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:01:50.707Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:01:50.714Z] TEST (Phase 4): Test 8 Passed: Integrated endpoint evaluation
+[2026-05-27T22:01:50.714Z] TEST (Phase 4): All Phase 4 tests passed.
+[2026-05-27T22:01:50.723Z] TEST RUNNER: Suite completed: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:01:50.724Z] TEST RUNNER: Starting test suite: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:01:50.785Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:01:50.787Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:01:50.789Z] TEST (Phase 5): Test 3 Passed: DOM highlighting
+[2026-05-27T22:01:50.789Z] TEST (Phase 5): All Phase 5 tests passed.
+[2026-05-27T22:01:50.796Z] TEST RUNNER: Suite completed: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:01:50.796Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T22:11:44.979Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:11:44.984Z] [SERVER] [INFO]: Evaluation Server running on port 3000 in development environment.
+[2026-05-27T22:19:53.722Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:19:53.819Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T22:19:53.821Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T22:19:53.822Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T22:19:53.822Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T22:19:53.823Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T22:19:53.869Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:19:53.870Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:19:54.100Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:19:54.104Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T22:19:54.307Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T22:19:54.337Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T22:19:54.337Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T22:19:54.343Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T22:19:54.345Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:19:54.345Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:19:54.349Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T22:19:54.350Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T22:19:54.350Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:19:54.353Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T22:19:54.354Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:19:54.355Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:19:54.357Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T22:19:54.357Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T22:19:54.376Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:19:54.376Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:19:54.461Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T22:19:54.464Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T22:19:54.465Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T22:19:54.466Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T22:19:54.466Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T22:19:54.467Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T22:19:54.470Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T22:19:54.470Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T22:19:54.471Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T22:19:54.471Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T22:19:54.472Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T22:20:00.954Z] TEST (Phase 3): Test failure: Should report mock usage when no API key
+
+false !== true
+
+[2026-05-27T22:20:00.972Z] TEST RUNNER: Suite failed: Phase 3: Segmentation & Evaluators with code 1
+[2026-05-27T22:20:23.015Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:20:23.092Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T22:20:23.094Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T22:20:23.094Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T22:20:23.095Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T22:20:23.096Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T22:20:23.103Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:20:23.103Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:20:23.413Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:20:23.419Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T22:20:23.630Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T22:20:23.691Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T22:20:23.692Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T22:20:23.697Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T22:20:23.700Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:20:23.700Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:20:23.704Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T22:20:23.705Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T22:20:23.706Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:20:23.708Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T22:20:23.709Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:20:23.710Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:20:23.712Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T22:20:23.712Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T22:20:23.723Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:20:23.724Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:20:23.815Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T22:20:23.818Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T22:20:23.818Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T22:20:23.819Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T22:20:23.819Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T22:20:23.820Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T22:20:23.821Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T22:20:23.821Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T22:20:23.822Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T22:20:23.822Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T22:20:23.822Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T22:20:24.797Z] TEST (Phase 3): Test failure: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 35.653779283s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.5-flash"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"35s"}]
+[2026-05-27T22:20:24.991Z] TEST RUNNER: Suite failed: Phase 3: Segmentation & Evaluators with code 3221226505
+[2026-05-27T22:20:45.924Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:20:45.988Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T22:20:45.990Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T22:20:45.991Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T22:20:45.991Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T22:20:45.992Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T22:20:46.000Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:20:46.001Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:20:46.210Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:20:46.214Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T22:20:46.425Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T22:20:46.465Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T22:20:46.465Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T22:20:46.471Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T22:20:46.473Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:20:46.473Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:20:46.476Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T22:20:46.478Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T22:20:46.478Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:20:46.480Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T22:20:46.481Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:20:46.481Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:20:46.483Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T22:20:46.483Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T22:20:46.505Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:20:46.505Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:20:46.590Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T22:20:46.592Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T22:20:46.593Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T22:20:46.593Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T22:20:46.594Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T22:20:46.594Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T22:20:46.596Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T22:20:46.596Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T22:20:46.596Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T22:20:46.597Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T22:20:46.597Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T22:20:46.598Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T22:20:46.598Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T22:20:46.605Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:20:46.605Z] TEST RUNNER: Starting test suite: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:20:46.660Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T22:20:46.661Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T22:20:46.662Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T22:20:46.663Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T22:20:46.663Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T22:20:46.665Z] TEST (Phase 4): Test 6 Passed: aggregateEvaluations weighting
+[2026-05-27T22:20:46.665Z] TEST (Phase 4): Test 7 Passed: buildAttentionAreas segment mapping
+[2026-05-27T22:20:46.846Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:20:46.850Z] [SERVER] [INFO]: Evaluation Server running on port 3101 in test environment.
+[2026-05-27T22:20:47.100Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:20:47.101Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:20:47.108Z] TEST (Phase 4): Test 8 Passed: Integrated endpoint evaluation
+[2026-05-27T22:20:47.108Z] TEST (Phase 4): All Phase 4 tests passed.
+[2026-05-27T22:20:47.117Z] TEST RUNNER: Suite completed: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:20:47.118Z] TEST RUNNER: Starting test suite: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:20:47.177Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:20:47.179Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:20:47.180Z] TEST (Phase 5): Test 3 Passed: DOM highlighting
+[2026-05-27T22:20:47.180Z] TEST (Phase 5): All Phase 5 tests passed.
+[2026-05-27T22:20:47.187Z] TEST RUNNER: Suite completed: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:20:47.188Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T22:21:02.014Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:21:02.019Z] [SERVER] [INFO]: Evaluation Server running on port 3000 in development environment.
+[2026-05-27T22:22:29.427Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:22:29.429Z] [SERVER] [INFO]: Running preprocessing and segmentation...
+[2026-05-27T22:22:29.431Z] [SERVER] [INFO]: Segmentation complete: 49 segments identified.
+[2026-05-27T22:22:29.431Z] [SERVER] [INFO]: Dispatching evaluators (assumptions, hallucinations, logic, judge)...
+[2026-05-27T22:22:31.871Z] [SERVER] [ERROR]: Evaluation pipeline failure: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+[2026-05-27T22:24:12.671Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:24:12.737Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T22:24:12.739Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T22:24:12.740Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T22:24:12.741Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T22:24:12.741Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T22:24:12.749Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:24:12.750Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:24:13.093Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:24:13.097Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T22:24:13.298Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T22:24:13.338Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T22:24:13.339Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T22:24:13.345Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T22:24:13.346Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:24:13.347Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:24:13.350Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T22:24:13.351Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T22:24:13.351Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:24:13.353Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T22:24:13.353Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:24:13.354Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:24:13.355Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T22:24:13.355Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T22:24:13.364Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:24:13.365Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:24:13.446Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T22:24:13.449Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T22:24:13.450Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T22:24:13.451Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T22:24:13.451Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T22:24:13.451Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T22:24:13.452Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T22:24:13.453Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T22:24:13.453Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T22:24:13.454Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T22:24:13.454Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T22:24:13.455Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T22:24:13.455Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T22:24:13.462Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:24:13.463Z] TEST RUNNER: Starting test suite: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:24:13.525Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T22:24:13.527Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T22:24:13.528Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T22:24:13.528Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T22:24:13.529Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T22:24:13.530Z] TEST (Phase 4): Test 6 Passed: aggregateEvaluations weighting
+[2026-05-27T22:24:13.530Z] TEST (Phase 4): Test 7 Passed: buildAttentionAreas segment mapping
+[2026-05-27T22:24:13.711Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:24:13.715Z] [SERVER] [INFO]: Evaluation Server running on port 3101 in test environment.
+[2026-05-27T22:24:13.950Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:24:13.951Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:24:13.959Z] TEST (Phase 4): Test 8 Passed: Integrated endpoint evaluation
+[2026-05-27T22:24:13.959Z] TEST (Phase 4): All Phase 4 tests passed.
+[2026-05-27T22:24:13.970Z] TEST RUNNER: Suite completed: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:24:13.971Z] TEST RUNNER: Starting test suite: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:24:14.034Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:24:14.036Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:24:14.038Z] TEST (Phase 5): Test 3 Passed: DOM highlighting
+[2026-05-27T22:24:14.038Z] TEST (Phase 5): All Phase 5 tests passed.
+[2026-05-27T22:24:14.045Z] TEST RUNNER: Suite completed: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:24:14.046Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T22:24:47.589Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:24:47.595Z] [SERVER] [INFO]: Evaluation Server running on port 3000 in development environment.
+[2026-05-27T22:25:56.418Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:25:56.419Z] [SERVER] [INFO]: Running preprocessing and segmentation...
+[2026-05-27T22:25:56.422Z] [SERVER] [INFO]: Segmentation complete: 49 segments identified.
+[2026-05-27T22:25:56.422Z] [SERVER] [INFO]: Dispatching evaluators (assumptions, hallucinations, logic, judge)...
+[2026-05-27T22:26:28.160Z] [SERVER] [INFO]: Evaluators completed. Used mock: false
+[2026-05-27T22:26:28.174Z] [SERVER] [INFO]: Evaluation complete. Trust level: MEDIUM
+[2026-05-27T22:35:01.750Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:35:01.819Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T22:35:01.820Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T22:35:01.821Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T22:35:01.822Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T22:35:01.822Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T22:35:01.829Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:35:01.830Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:35:02.235Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:35:02.240Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T22:35:02.455Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T22:35:02.519Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T22:35:02.520Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T22:35:02.526Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T22:35:02.528Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:35:02.529Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:02.533Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T22:35:02.535Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T22:35:02.536Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:02.538Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T22:35:02.540Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:35:02.541Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:02.542Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T22:35:02.542Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T22:35:02.552Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:35:02.552Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:35:02.636Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T22:35:02.639Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T22:35:02.640Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T22:35:02.640Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T22:35:02.641Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T22:35:02.641Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T22:35:02.643Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T22:35:02.643Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T22:35:02.644Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T22:35:02.644Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T22:35:02.645Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T22:35:02.645Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T22:35:02.646Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T22:35:02.655Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:35:02.655Z] TEST RUNNER: Starting test suite: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:35:02.716Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T22:35:02.717Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T22:35:02.718Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T22:35:02.719Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T22:35:02.719Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T22:35:02.720Z] TEST (Phase 4): Test 6 Passed: aggregateEvaluations weighting
+[2026-05-27T22:35:02.721Z] TEST (Phase 4): Test 7 Passed: buildAttentionAreas segment mapping
+[2026-05-27T22:35:02.882Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:35:02.886Z] [SERVER] [INFO]: Evaluation Server running on port 3101 in test environment.
+[2026-05-27T22:35:03.156Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:35:03.157Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:03.171Z] TEST (Phase 4): Test 8 Passed: Integrated endpoint evaluation
+[2026-05-27T22:35:03.171Z] TEST (Phase 4): All Phase 4 tests passed.
+[2026-05-27T22:35:03.179Z] TEST RUNNER: Suite completed: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:35:03.180Z] TEST RUNNER: Starting test suite: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:35:03.248Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:35:03.250Z] TEST (Phase 5): Test failure: indicator.removeAttribute is not a function
+[2026-05-27T22:35:03.258Z] TEST RUNNER: Suite failed: Phase 5: Advanced UX & Highlighting with code 1
+[2026-05-27T22:35:22.149Z] TEST RUNNER: Starting test suite: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:35:22.216Z] TEST (Phase 1): Successfully parsed content.js
+[2026-05-27T22:35:22.218Z] TEST (Phase 1): Test 1 Passed: detectPlatform correctly identifies hostname
+[2026-05-27T22:35:22.218Z] TEST (Phase 1): Test 2 Passed: extractConversations correctly returns prompt/response pairs
+[2026-05-27T22:35:22.219Z] TEST (Phase 1): Test 3 Passed: Selection tracking captures correct selected string
+[2026-05-27T22:35:22.219Z] TEST (Phase 1): All Phase 1 tests passed.
+[2026-05-27T22:35:22.226Z] TEST RUNNER: Suite completed: Phase 1: Chrome Extension Foundation
+[2026-05-27T22:35:22.227Z] TEST RUNNER: Starting test suite: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:35:22.480Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:35:22.485Z] [SERVER] [INFO]: Evaluation Server running on port 3099 in test environment.
+[2026-05-27T22:35:22.697Z] TEST (Phase 2): Started backend server on test port 3099.
+[2026-05-27T22:35:22.744Z] [SERVER] [INFO]: Received evaluation request for platform: unknown
+[2026-05-27T22:35:22.746Z] [SERVER] [WARN]: Request rejected: No response or selected text provided.
+[2026-05-27T22:35:22.753Z] TEST (Phase 2): Test 1 Passed: Empty body rejected with 400
+[2026-05-27T22:35:22.755Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:35:22.755Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:22.759Z] TEST (Phase 2): Test 2 Passed: Standard evaluation returns complete JSON schema
+[2026-05-27T22:35:22.760Z] [SERVER] [INFO]: Received evaluation request for platform: chatgpt
+[2026-05-27T22:35:22.760Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:22.762Z] TEST (Phase 2): Test 3 Passed: Risk trigger conditions modify mock output correctly
+[2026-05-27T22:35:22.763Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:35:22.763Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:22.764Z] TEST (Phase 2): Test 4 Passed: selected_text-only requests are accepted
+[2026-05-27T22:35:22.765Z] TEST (Phase 2): All Phase 2 tests passed.
+[2026-05-27T22:35:22.774Z] TEST RUNNER: Suite completed: Phase 2: Backend Orchestration Foundation
+[2026-05-27T22:35:22.774Z] TEST RUNNER: Starting test suite: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:35:22.862Z] TEST (Phase 3): Test 1 Passed: preprocessText normalizes whitespace
+[2026-05-27T22:35:22.865Z] TEST (Phase 3): Test 2 Passed: segmentResponse produces valid typed segments
+[2026-05-27T22:35:22.866Z] TEST (Phase 3): Test 3 Passed: Reasoning classification works
+[2026-05-27T22:35:22.866Z] TEST (Phase 3): Test 4 Passed: Numerical classification works
+[2026-05-27T22:35:22.867Z] TEST (Phase 3): Test 5 Passed: Citation classification works
+[2026-05-27T22:35:22.867Z] TEST (Phase 3): Test 6 Passed: Code block extraction works
+[2026-05-27T22:35:22.868Z] TEST (Phase 3): Test 7 Passed: Edge case handling works
+[2026-05-27T22:35:22.869Z] TEST (Phase 3): Test 8 Passed: Mock assumptions schema valid
+[2026-05-27T22:35:22.869Z] TEST (Phase 3): Test 9 Passed: Mock hallucinations schema valid
+[2026-05-27T22:35:22.869Z] TEST (Phase 3): Test 10 Passed: Mock logic schema valid
+[2026-05-27T22:35:22.870Z] TEST (Phase 3): Test 11 Passed: Mock judge schema valid
+[2026-05-27T22:35:22.870Z] TEST (Phase 3): Test 12 Passed: runAllEvaluators orchestration works
+[2026-05-27T22:35:22.871Z] TEST (Phase 3): All Phase 3 tests passed.
+[2026-05-27T22:35:22.877Z] TEST RUNNER: Suite completed: Phase 3: Segmentation & Evaluators
+[2026-05-27T22:35:22.878Z] TEST RUNNER: Starting test suite: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:35:22.939Z] TEST (Phase 4): Test 1 Passed: computeHallucinationScore penalties
+[2026-05-27T22:35:22.941Z] TEST (Phase 4): Test 2 Passed: computeLogicScore coherence calculations
+[2026-05-27T22:35:22.942Z] TEST (Phase 4): Test 3 Passed: computeJudgeScore scaling
+[2026-05-27T22:35:22.942Z] TEST (Phase 4): Test 4 Passed: computeAssumptionScore unstated risk calculations
+[2026-05-27T22:35:22.942Z] TEST (Phase 4): Test 5 Passed: classifyTrust boundaries
+[2026-05-27T22:35:22.943Z] TEST (Phase 4): Test 6 Passed: aggregateEvaluations weighting
+[2026-05-27T22:35:22.944Z] TEST (Phase 4): Test 7 Passed: buildAttentionAreas segment mapping
+[2026-05-27T22:35:23.113Z] [SERVER] [INFO]: Gemini Generative AI client initialized successfully.
+[2026-05-27T22:35:23.118Z] [SERVER] [INFO]: Evaluation Server running on port 3101 in test environment.
+[2026-05-27T22:35:23.352Z] [SERVER] [INFO]: Received evaluation request for platform: claude
+[2026-05-27T22:35:23.353Z] [SERVER] [INFO]: Processing request in MOCK/TEST mode.
+[2026-05-27T22:35:23.360Z] TEST (Phase 4): Test 8 Passed: Integrated endpoint evaluation
+[2026-05-27T22:35:23.360Z] TEST (Phase 4): All Phase 4 tests passed.
+[2026-05-27T22:35:23.370Z] TEST RUNNER: Suite completed: Phase 4: Aggregation, Scoring & Attention Areas
+[2026-05-27T22:35:23.371Z] TEST RUNNER: Starting test suite: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:35:23.440Z] TEST (Phase 5): Test 1 Passed: Markdown compiler
+[2026-05-27T22:35:23.442Z] TEST (Phase 5): Test 2 Passed: Sidebar data bindings
+[2026-05-27T22:35:23.443Z] TEST (Phase 5): Test 3 Passed: DOM highlighting
+[2026-05-27T22:35:23.444Z] TEST (Phase 5): All Phase 5 tests passed.
+[2026-05-27T22:35:23.452Z] TEST RUNNER: Suite completed: Phase 5: Advanced UX & Highlighting
+[2026-05-27T22:35:23.453Z] TEST RUNNER: All executed test suites completed successfully.
+[2026-05-27T22:37:07.331Z] [SERVER] [INFO]: Received evaluation request for platform: gemini
+[2026-05-27T22:37:07.332Z] [SERVER] [INFO]: Running preprocessing and segmentation...
+[2026-05-27T22:37:07.333Z] [SERVER] [INFO]: Segmentation complete: 49 segments identified.
+[2026-05-27T22:37:07.333Z] [SERVER] [INFO]: Dispatching evaluators (assumptions, hallucinations, logic, judge)...
+[2026-05-27T22:37:52.499Z] [SERVER] [INFO]: Evaluators completed. Used mock: false
+[2026-05-27T22:37:52.500Z] [SERVER] [INFO]: Evaluation complete. Trust level: MEDIUM

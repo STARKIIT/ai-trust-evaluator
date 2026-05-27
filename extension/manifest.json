@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "AI Output Trust & Reliability Evaluator",
+  "version": "1.0.0",
+  "description": "Evaluates LLM prompts and responses for truthfulness, logic, assumptions, and reliability in real-time.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.claude.ai/*",
+    "https://*.chatgpt.com/*",
+    "https://*.gemini.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.claude.ai/*",
+        "https://*.chatgpt.com/*",
+        "https://*.gemini.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sidebar.html",
+        "sidebar.js",
+        "sidebar.css"
+      ],
+      "matches": [
+        "https://*.claude.ai/*",
+        "https://*.chatgpt.com/*",
+        "https://*.gemini.google.com/*"
+      ]
+    }
+  ]
+}

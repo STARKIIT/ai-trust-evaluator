@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Trust Panel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+  <div id="app-container" class="app-layout">
+    
+    <!-- SVG Gradients Definitions (Hidden) -->
+    <svg style="position: absolute; width: 0; height: 0;" aria-hidden="true">
+      <defs>
+        <linearGradient id="gemini-sparkle-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7a9eff" />
+          <stop offset="35%" stop-color="#9B72CB" />
+          <stop offset="70%" stop-color="#D96570" />
+          <stop offset="100%" stop-color="#fdd663" />
+        </linearGradient>
+        <linearGradient id="green-glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#81c995" />
+          <stop offset="100%" stop-color="#34a853" />
+        </linearGradient>
+        <linearGradient id="yellow-glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#fdd663" />
+          <stop offset="100%" stop-color="#f9ab00" />
+        </linearGradient>
+        <linearGradient id="red-glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#f28b82" />
+          <stop offset="100%" stop-color="#d93025" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <div class="logo-icon-wrapper">
+          <svg class="header-logo-svg" width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="url(#gemini-sparkle-grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div>
+          <h1 id="app-title">AI Trust Evaluator</h1>
+          <p id="app-subtitle">Real-time output validation</p>
+        </div>
+      </div>
+      <button id="clear-cache-btn" class="icon-btn" title="Clear evaluations cache">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="3 6 5 6 21 6"></polyline>
+          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+          <line x1="10" y1="11" x2="10" y2="17"></line>
+          <line x1="14" y1="11" x2="14" y2="17"></line>
+        </svg>
+      </button>
+    </header>
+
+    <!-- Main Content Panel -->
+    <main class="scrollable-content">
+      
+      <!-- Welcome/Trigger screen -->
+      <section id="welcome-view" class="welcome-card text-center fade-in">
+        <div class="sparkle-logo-container">
+          <svg class="gemini-sparkle-large pulse-animation" viewBox="0 0 24 24" width="48" height="48">
+            <path d="M12 2L14.8 9.2L22 12L14.8 14.8L12 22L9.2 14.8L2 12L9.2 9.2L12 2Z" fill="url(#gemini-sparkle-grad)" />
+          </svg>
+        </div>
+        
+        <h2>Evaluation Ready</h2>
+        <p class="desc">Capture prompts & responses from the current chat pane, or highlight custom text to analyze specific claims.</p>
+        
+        <div class="extracted-preview-box">
+          <div class="preview-item">
+            <span class="preview-label">CAPTURED PROMPT</span>
+            <div id="preview-prompt-text" class="preview-text">No active prompt captured yet.</div>
+          </div>
+          <div class="preview-divider"></div>
+          <div class="preview-item">
+            <span class="preview-label">CAPTURED RESPONSE</span>
+            <div id="preview-response-text" class="preview-text">No active response captured yet.</div>
+          </div>
+        </div>
+
+        <button id="evaluate-btn" class="primary-capsule-btn full-width">
+          Evaluate Quality
+        </button>
+      </section>
+
+      <!-- Loading State -->
+      <section id="loading-view" class="welcome-card text-center hidden">
+        <div class="loading-spinner-container">
+          <svg class="loading-sparkle-spin" viewBox="0 0 24 24" width="56" height="56">
+            <path d="M12 2L14.8 9.2L22 12L14.8 14.8L12 22L9.2 14.8L2 12L9.2 9.2L12 2Z" fill="url(#gemini-sparkle-grad)" />
+          </svg>
+        </div>
+        <h2>Analyzing AI Output...</h2>
+        <p class="desc">Gemini is checking reasoning chains, extracting implicit assumptions, and validating assertions.</p>
+        <div class="loading-progress-bar">
+          <div class="loading-progress-fill"></div>
+        </div>
+      </section>
+
+      <!-- Main Results Dashboard -->
+      <section id="results-view" class="hidden fade-in">
+        <!-- Trust Dashboard Score Card -->
+        <div id="score-card" class="result-score-card">
+          <span class="score-label">OVERALL TRUST RATING</span>
+          <div id="score-value" class="score-value medium-risk">MEDIUM</div>
+          <div class="score-badge-container">
+            <span id="score-badge-indicator" class="score-badge">Medium Risk</span>
+          </div>
+          <p id="reliability-summary" class="summary-desc text-center">Evaluating reliability...</p>
+        </div>
+
+        <!-- Metrics Grid -->
+        <div class="metrics-grid">
+          <div class="metric-mini-card">
+            <span class="metric-lbl">Logic & Reasoning</span>
+            <span id="metric-logic" class="metric-val text-green">Good</span>
+          </div>
+          <div class="metric-mini-card">
+            <span class="metric-lbl">Hallucination Risk</span>
+            <span id="metric-hallucination" class="metric-val text-yellow">Low</span>
+          </div>
+        </div>
+
+        <!-- Details Tab Bar -->
+        <nav class="tab-chip-bar">
+          <button id="tab-btn-assumptions" class="tab-chip active" data-tab="tab-assumptions">Assumptions</button>
+          <button id="tab-btn-hallucinations" class="tab-chip" data-tab="tab-hallucinations">Hallucinations</button>
+          <button id="tab-btn-logic" class="tab-chip" data-tab="tab-logic">Logic & Judge</button>
+        </nav>
+
+        <!-- Tab Panels -->
+        <div class="tabs-container">
+          <!-- Tab 1: Assumptions -->
+          <div id="tab-assumptions" class="tab-panel active">
+            <h4 class="section-title">Extracted Assumptions</h4>
+            <div id="assumptions-list" class="list-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- Tab 2: Hallucinations -->
+          <div id="tab-hallucinations" class="tab-panel">
+            <h4 class="section-title">Hallucination Analysis</h4>
+            <div id="hallucinations-list" class="list-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- Tab 3: Logic & Reasoning -->
+          <div id="tab-logic" class="tab-panel">
+            <h4 class="section-title">Reasoning Verification</h4>
+            <div id="logic-analysis-box" class="analysis-details-card">
+              <!-- Dynamically populated -->
+            </div>
+            
+            <h4 class="section-title margin-top-2">LLM-as-a-Judge Verdict</h4>
+            <div id="judge-verdict-box" class="analysis-details-card">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Panel -->
+        <div class="action-footer">
+          <button id="re-evaluate-btn" class="secondary-capsule-btn full-width">Re-Evaluate Response</button>
+        </div>
+      </section>
+      
+      <!-- Error screen -->
+      <section id="error-view" class="welcome-card text-center hidden">
+        <div class="error-icon-container">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#f28b82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="15" y1="9" x2="9" y2="15"></line>
+            <line x1="9" y1="9" x2="15" y2="15"></line>
+          </svg>
+        </div>
+        <h2>Evaluation Failed</h2>
+        <p id="error-message" class="desc">Unable to connect to the evaluation backend.</p>
+        <button id="retry-btn" class="primary-capsule-btn full-width">Retry Evaluation</button>
+      </section>
+    </main>
+  </div>
+  <script src="sidebar.js"></script>
+</body>
+</html>
